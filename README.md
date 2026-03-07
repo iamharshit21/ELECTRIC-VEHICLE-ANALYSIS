@@ -1,37 +1,74 @@
-#Electric Vehicle Market Dashboard
+# Electric Vehicle Market Analysis Dashboard
 
-#Overview
-This project presents an interactive Electric Vehicle Market Dashboard built using Power BI.
-It provides insights into the adoption, distribution, and performance of electric vehicles (EVs) across different states, manufacturers, and time periods.
+## Project Overview
 
-#Features
-Total Vehicles, BEVs, PHEVs, and Average Electric Range
-EV adoption performance by State and Make
-BEV vs PHEV market share analysis
-Top EV models and CAFV eligibility breakdown
-Year-wise and State-wise filtering for deeper insights
+This project presents an interactive Electric Vehicle (EV) market analysis dashboard built using Power BI. The dashboard provides insights into EV adoption trends, manufacturer performance, model popularity, and regional distribution of electric vehicles.
 
-#Tech Stack
-Power BI – Data Visualization
-Data Cleaning & Transformation – Power Query, DAX
+The objective of this project is to analyze EV market growth and identify key patterns across different states, manufacturers, and vehicle models.
 
-#Insights
-Total Vehicles: 120K+ EVs analyzed (2010 onwards)
-BEVs dominate with 82K vehicles (≈68%), PHEVs at 38K (≈32%)
-California leads adoption with 48K+ EVs
-Average Electric Range: ~230 miles    
-Top Make: Tesla, Top Model: Tesla Model 3
-CAFV eligibility highlights adoption of clean energy incentives
+## Tools & Technologies
 
-#Usage
-Open the Power BI file (.pbix) or refer to the dashboard screenshots
-Use filters (Model Year, State, Make, Propulsion Type) for customized insights
-Explore visuals for total EVs, market share, state-wise distribution, and top models
+* Power BI
+* Power Query
+* DAX
+* Data Visualization
+* Data Cleaning
 
-#Project Structure
+## Dataset
 
-![ELECTRIC VEHICLE ANALYSIS](https://github.com/user-attachments/assets/ad70eb06-a5b4-4ea7-b7cc-a01d35cf657a)
+Electric Vehicle Population Dataset containing information about:
 
-EV_Dashboard.pbix – Power BI file
+* Vehicle Make
+* Vehicle Model
+* Model Year
+* Electric Range
+* State
+* Electric Utility
+* CAFV Eligibility
 
-screenshots/ – Dashboard screenshots
+## Key KPIs
+
+* Total Electric Vehicles Registered
+* Average Electric Range
+* Battery Electric Vehicles (BEV)
+* Plug-in Hybrid Electric Vehicles (PHEV)
+
+## Dashboard Features
+
+* Year-wise EV adoption trend
+* State-wise EV distribution
+* Manufacturer-wise vehicle count
+* CAFV eligibility distribution
+* Vehicle model popularity
+* EV utility analysis with filters
+
+## Key Insights
+
+* EV adoption increased significantly after 2018.
+* Tesla dominates the EV market among manufacturers.
+* Battery Electric Vehicles (BEVs) account for the majority of EV registrations.
+* Model Y and Model 3 are among the most popular EV models.
+* Certain states show significantly higher EV adoption than others.
+
+## Visualizations Used
+
+* KPI Cards
+* Line Chart (EV adoption by model year)
+* Map Visualization (EV distribution by state)
+* Bar Chart (vehicles by manufacturer)
+* Donut Chart (CAFV eligibility)
+* Treemap (vehicle model distribution)
+
+## Project Files
+
+* Power BI Dashboard (.pbix)
+* Dashboard Screenshot
+* README Documentation
+
+## Dashboard Preview
+
+![EV Dashboard](SCREENSHOT ELECTRIC VEHICLE ANALYSIS.png)
+
+## Author
+
+Harshit Singh
