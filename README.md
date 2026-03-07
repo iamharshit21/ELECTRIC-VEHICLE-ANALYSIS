@@ -86,7 +86,9 @@ The dataset includes information such as:
 
 ## Dashboard Preview
 
-![EV Dashboard](ev-dashboard.png)
+## Dashboard Preview
+
+![EV Dashboard](ev-dashboard-preview.png)
 
 ---
 
